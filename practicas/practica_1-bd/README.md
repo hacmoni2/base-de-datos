@@ -4,11 +4,11 @@
 **Carrera:** Ingeniería en Inteligencia Artificial
 
 ## Índice
-[Ejercicio 4](./practicas/practica_1-bd/Docs/estado-del-arte.md)
+[Ejercicio 4](./Docs/estado-del-arte.md)
 
-[Ejercicio 5](./practicas/practica_1-bd/Docs/caso-de-estudio.md)
+[Ejercicio 5](./Docs/caso-de-estudio.md)
 
-[Modelo entidad-relación](./practicas/practica_1-bd/modelo/modelo-entidad-relacion.png)
+[Modelo entidad-relación](./modelo/modelo-entidad-relacion.png)
 
 
 
