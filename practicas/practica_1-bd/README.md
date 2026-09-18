@@ -21,6 +21,7 @@ Ingeniería en Inteligencia Artificial
 ## Índice
 
 **Ejercicio 1 Diego Colin**
+
 [Ejercicio 1](https://github.com/hacmoni2/base-de-datos/blob/main/practicas/practica_1-bd/Docs/instalacion_SGBD-2.pdf)
 
 
