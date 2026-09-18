@@ -8,7 +8,7 @@
 
 [Ejercicio 5](./Docs/Caso-de-estudio.md)
 
-[Modelo entidad-relación](./modelo/modelo-entidad-relacion.png)
+[Modelo entidad-relación](./modelo/Modelo-entidad-relacion.png)
 
 
 
