@@ -1,7 +1,22 @@
-**Nombre completo:** Tu nombre
-**Boleta:** Tu boleta
-**Grupo:** Tu grupo
-**Carrera:** Ingeniería en Inteligencia Artificial
+**Nombre completo:** 
+
+Colin Acosta Diego Hacmoni
+
+Francisco Reyes Montes de Oca
+
+**Boleta:** 
+
+2025630946
+
+2025630556
+
+**Grupo:** 
+
+3BV1
+
+**Carrera:** 
+
+Ingeniería en Inteligencia Artificial
 
 ## Índice
 
