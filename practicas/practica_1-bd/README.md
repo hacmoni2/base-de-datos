@@ -49,5 +49,6 @@ Ingeniería en Inteligencia Artificial
 [Entorno](https://github.com/hacmoni2/base-de-datos/tree/main/practicas/practica_1-bd/Entorno)
 
 **IMAGENES**
+
 [captura 1-pull](https://github.com/hacmoni2/base-de-datos/blob/main/practicas/practica_1-bd/Evidencias/Git/Pull_Request.png)
 
