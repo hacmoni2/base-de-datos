@@ -28,6 +28,7 @@ Ingeniería en Inteligencia Artificial
 
 
 **Francisco Reyes Montes de Oca**
+
 [Docker](https://github.com/hacmoni2/base-de-datos/blob/main/practicas/practica_1-bd/Evidencias/docker_podman/Docker_Investigacion.md)
 
 [Git](https://github.com/hacmoni2/base-de-datos/blob/main/practicas/practica_1-bd/Evidencias/Git/Git_Investigacion.md)
