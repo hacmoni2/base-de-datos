@@ -34,6 +34,7 @@ Ingeniería en Inteligencia Artificial
 [Git](https://github.com/hacmoni2/base-de-datos/blob/main/practicas/practica_1-bd/Evidencias/Git/Git_Investigacion.md)
 
 
+##
 
 [Instalacion_docker](https://github.com/hacmoni2/base-de-datos/blob/main/practicas/practica_1-bd/Evidencias/docker_podman/instalacion-docker.pdf)
 
