@@ -1,6 +1,6 @@
 **Nombre completo:** 
 
-Colin Acosta Diego Hacmoni
+Diego Hacmoni Colin Acosta
 
 Francisco Reyes Montes de Oca
 
@@ -20,7 +20,7 @@ Ingeniería en Inteligencia Artificial
 
 ## Índice
 
-**Ejercicio 1 Diego Colin**
+**Diego Hacmoni Colin Acosta**
 
 [Docker](https://github.com/hacmoni2/base-de-datos/blob/main/practicas/practica_1-bd/Evidencias/docker_podman/investigacion-docker-diego.md)
 
