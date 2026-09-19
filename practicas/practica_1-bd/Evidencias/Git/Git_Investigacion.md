@@ -25,7 +25,7 @@ En Git cada commit del proyecto crea un "apuntador" al commit o commits padres y
 - *Repositorio:* Es donde se almacenan y gestionan los archivos de nuestro proyecto.
 - *Commit:* Es la confirmación de cada cambio que se realiza en nuestro repositorio.
 - *Branch:* Una rama del proyecto es una versión del proyecto que se modifica de forma aislada para no alterar el código principal del proyecto.
-- *Merge:* Es la fusión de una rama con otra, pudiendo ser la pincipal.
+- *Merge:* Es la fusión de una rama con otra, pudiendo ser la principal.
 - *Conflicto de fusión:* Ocurre cuando en dos ramas se realizaron modificaciones distintas del mismo archivo y por lo tanto no se puede decidir de manera automatica que cambio conservar en la fusión.
 - *Pull request:* Es la petición para integrar los cambios realizados en una rama a la principal.
 - *Archivo .gitignore:* Sirve para indicar a Git que archivos del repositorio no deben ser versionados.
@@ -33,6 +33,6 @@ En Git cada commit del proyecto crea un "apuntador" al commit o commits padres y
 
 ## Fuentes
 
-https://git-scm.com/book/es/v2
+Chacon, S., & Straub, B. (2014). Pro Git (2.ª ed.). Apress. https://git-scm.com/book/es/v2
 
-https://docs.github.com/es/get-started/start-your-journey/what-is-github
+GitHub. (n.d.). Documentación de GitHub. Recuperado el 18 de septiembre de 2026, de https://docs.github.com/es
