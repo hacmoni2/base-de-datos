@@ -1,0 +1,13 @@
+## Descripción de la actividad realizada
+
+La presente actividad consiste en una investigación sobre el concepto de base de datos y los principales fundamentos relacionados con su funcionamiento, evolución y aplicación dentro de los sistemas informáticos. El desarrollo del trabajo parte de la diferencia entre dato, información y base de datos, con el propósito de establecer una base conceptual antes de abordar aspectos más específicos de los sistemas gestores de bases de datos.
+
+La investigación también analiza los problemas que llevaron a la evolución de los sistemas tradicionales basados en archivos hacia los sistemas gestores de bases de datos. Entre estos problemas se encuentran la redundancia, la inconsistencia, la dificultad para compartir información, la falta de mecanismos adecuados de integridad, seguridad y control de concurrencia. A partir de estos antecedentes se aborda la arquitectura ANSI-SPARC y sus tres niveles: externo, conceptual e interno, así como la importancia de la independencia de datos.
+
+Otro de los puntos desarrollados corresponde a los lenguajes y componentes principales de un sistema gestor de bases de datos. Se explican las funciones relacionadas con la definición, consulta y modificación de datos, además de aspectos como las transacciones, el procesamiento de consultas, la recuperación y la administración del almacenamiento.
+
+Posteriormente se revisan diferentes tipos de bases de datos, incluyendo las relacionales, documentales, clave-valor, familias de columnas, grafos y bases especializadas en series temporales, información espacial y vectores. Para cada modelo se presenta su propósito general y un ejemplo de aplicación que permite relacionar sus características con situaciones reales.
+
+Finalmente, se analiza la importancia de las bases de datos dentro de los flujos de trabajo de inteligencia artificial. Se consideran aspectos como el almacenamiento de conjuntos de entrenamiento, la calidad de los datos, la recuperación de información y la búsqueda por similitud mediante representaciones vectoriales. De esta manera, la investigación relaciona los fundamentos tradicionales de las bases de datos con algunas de las necesidades actuales de los sistemas de inteligencia artificial.
+
+La información presentada fue organizada a partir de diferentes fuentes bibliográficas y documentación técnica, utilizando citas dentro del texto y una sección final de referencias bajo el formato APA 7. El objetivo principal consiste en comprender los conceptos estudiados y relacionarlos con aplicaciones prácticas, evitando limitar el análisis a la definición aislada de cada término.
