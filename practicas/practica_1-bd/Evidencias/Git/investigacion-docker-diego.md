@@ -1,13 +1,45 @@
-## Descripción de la actividad realizada
+# Git y GitHub
 
-La presente actividad consiste en una investigación sobre el concepto de base de datos y los principales fundamentos relacionados con su funcionamiento, evolución y aplicación dentro de los sistemas informáticos. El desarrollo del trabajo parte de la diferencia entre dato, información y base de datos, con el propósito de establecer una base conceptual antes de abordar aspectos más específicos de los sistemas gestores de bases de datos.
+Git es un sistema de control de versiones distribuido utilizado para registrar y administrar los cambios realizados en un proyecto. Su función principal es mantener un historial de las modificaciones de los archivos, permitiendo consultar versiones anteriores, recuperar cambios y trabajar con diferentes versiones de un proyecto sin perder información. Git fue creado por Linus Torvalds en 2005 y actualmente es una de las herramientas más utilizadas para el desarrollo de software (Git, 2026).
 
-La investigación también analiza los problemas que llevaron a la evolución de los sistemas tradicionales basados en archivos hacia los sistemas gestores de bases de datos. Entre estos problemas se encuentran la redundancia, la inconsistencia, la dificultad para compartir información, la falta de mecanismos adecuados de integridad, seguridad y control de concurrencia. A partir de estos antecedentes se aborda la arquitectura ANSI-SPARC y sus tres niveles: externo, conceptual e interno, así como la importancia de la independencia de datos.
+Una característica importante de Git es que funciona de manera distribuida. Esto significa que cada repositorio local contiene una copia del historial del proyecto, por lo que muchas operaciones pueden realizarse sin conexión a Internet. Los cambios pueden registrarse mediante *commits*, que representan puntos específicos en el historial del proyecto. Por ejemplo, después de modificar algunos archivos, pueden utilizarse comandos como `git add` y `git commit` para preparar y registrar los cambios.
 
-Otro de los puntos desarrollados corresponde a los lenguajes y componentes principales de un sistema gestor de bases de datos. Se explican las funciones relacionadas con la definición, consulta y modificación de datos, además de aspectos como las transacciones, el procesamiento de consultas, la recuperación y la administración del almacenamiento.
+GitHub, por otro lado, es una plataforma que permite alojar repositorios de Git en Internet y proporciona herramientas adicionales para colaborar en proyectos. Mientras que Git es el sistema de control de versiones, GitHub es un servicio que utiliza Git como una de sus principales tecnologías. GitHub permite almacenar repositorios de manera remota, compartir proyectos, administrar colaboradores, revisar cambios mediante *pull requests* y utilizar herramientas relacionadas con el desarrollo de software (GitHub, 2026).
 
-Posteriormente se revisan diferentes tipos de bases de datos, incluyendo las relacionales, documentales, clave-valor, familias de columnas, grafos y bases especializadas en series temporales, información espacial y vectores. Para cada modelo se presenta su propósito general y un ejemplo de aplicación que permite relacionar sus características con situaciones reales.
+Por lo tanto, Git y GitHub no son exactamente lo mismo. Git puede utilizarse completamente de manera local, mientras que GitHub funciona como una plataforma remota para almacenar y colaborar con repositorios. Una computadora puede tener Git instalado y trabajar con repositorios sin utilizar GitHub. Sin embargo, GitHub facilita el intercambio del proyecto entre diferentes equipos y personas.
 
-Finalmente, se analiza la importancia de las bases de datos dentro de los flujos de trabajo de inteligencia artificial. Se consideran aspectos como el almacenamiento de conjuntos de entrenamiento, la calidad de los datos, la recuperación de información y la búsqueda por similitud mediante representaciones vectoriales. De esta manera, la investigación relaciona los fundamentos tradicionales de las bases de datos con algunas de las necesidades actuales de los sistemas de inteligencia artificial.
+Para crear un repositorio existen diferentes alternativas. En GitHub puede crearse uno desde la página de la plataforma seleccionando la opción para crear un nuevo repositorio. Se establece un nombre, se determina si será público o privado y pueden agregarse archivos iniciales como un archivo `README`. Posteriormente, el repositorio puede descargarse al equipo mediante `git clone`, creando una copia local que mantiene la conexión con el repositorio remoto.
 
-La información presentada fue organizada a partir de diferentes fuentes bibliográficas y documentación técnica, utilizando citas dentro del texto y una sección final de referencias bajo el formato APA 7. El objetivo principal consiste en comprender los conceptos estudiados y relacionarlos con aplicaciones prácticas, evitando limitar el análisis a la definición aislada de cada término.
+También es posible crear primero un repositorio local utilizando `git init`. Este comando convierte una carpeta existente en un repositorio de Git. Después pueden agregarse archivos con `git add`, registrar los cambios con `git commit` y establecer un repositorio remoto mediante `git remote add origin`. Finalmente, los cambios pueden enviarse a GitHub mediante `git push`.
+
+Las ramas, conocidas como *branches*, permiten trabajar en diferentes líneas de desarrollo dentro de un mismo repositorio. Una rama puede utilizarse para desarrollar una nueva característica, corregir un error o realizar modificaciones sin afectar directamente la versión principal del proyecto. Generalmente, la rama principal se denomina `main`.
+
+Para crear una rama puede utilizarse el comando:
+
+```bash
+git branch nombre-de-la-rama
+```
+
+Después, para cambiar a ella se puede utilizar:
+
+```bash
+git switch nombre-de-la-rama
+```
+
+También es posible crear y cambiar a una rama en una sola instrucción:
+
+```bash
+git switch -c nombre-de-la-rama
+```
+
+Una vez realizados los cambios dentro de la nueva rama, pueden registrarse mediante un *commit* y posteriormente enviarse al repositorio remoto con `git push`. Esto permite que otros integrantes del proyecto puedan consultar la rama y trabajar sobre ella. Cuando el trabajo está terminado, GitHub permite realizar una *pull request*, mediante la cual los cambios pueden revisarse antes de incorporarlos a la rama principal.
+
+El uso de ramas resulta especialmente importante en proyectos colaborativos porque evita que varios integrantes modifiquen directamente la versión principal al mismo tiempo. Cada integrante puede desarrollar una parte específica del proyecto y posteriormente integrar los cambios. De esta manera, Git proporciona el control del historial y las herramientas para administrar versiones, mientras que GitHub facilita el almacenamiento remoto, la colaboración y la revisión del código.
+
+En conclusión, Git y GitHub cumplen funciones relacionadas pero diferentes. Git proporciona el sistema de control de versiones y permite administrar los cambios de un proyecto, mientras que GitHub ofrece una plataforma para alojar repositorios y facilitar el trabajo colaborativo. El uso de repositorios y ramas permite organizar mejor los proyectos, conservar un historial de modificaciones y reducir los problemas que pueden surgir cuando varias personas trabajan sobre los mismos archivos.
+
+## Referencias
+
+Git. (2026). *Git documentation*. https://git-scm.com/docs
+
+GitHub. (2026). *GitHub documentation*. https://docs.github.com/
